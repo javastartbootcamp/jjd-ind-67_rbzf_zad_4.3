@@ -6,4 +6,8 @@ class Circle {
     Circle(double r) {
         this.r = r;
     }
+
+    double calculateCircleArea() {
+        return r * r * 3.14;
+    }
 }

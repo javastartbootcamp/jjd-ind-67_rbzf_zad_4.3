@@ -8,12 +8,11 @@ public class Main {
         Circle circle = new Circle(1);
         Triangle triangle = new Triangle(3, 4, 5);
 
-        ShapeCalculator calc = new ShapeCalculator();
-        System.out.println("Pole kwadratu o boku " + square.a + " wynosi " + calc.calculateSquareArea(square));
-        System.out.println("Pole kola o promieniu " + circle.r + " wynosi " + calc.calculateCircleArea(circle));
+        System.out.println("Pole kwadratu o boku " + square.a + " wynosi " + square.calculateSquareArea());
+        System.out.println("Pole kola o promieniu " + circle.r + " wynosi " + circle.calculateCircleArea());
         System.out.println("Obwod prostokata o bokach " + rectangle.a + ", " + rectangle.b + " wynosi "
-                + calc.calculateRectPerimeter(rectangle));
+                + rectangle.calculateRectPerimeter());
         System.out.println("Obwod trojkata o bokach " + triangle.a + ", " + triangle.b + ", " + triangle.c
-                + " wynosi " + calc.calculateTrianglePerimeter(triangle));
+                + " wynosi " + triangle.calculateTrianglePerimeter());
     }
 }

@@ -10,4 +10,8 @@ class Triangle {
         this.b = b;
         this.c = c;
     }
+
+    double calculateTrianglePerimeter() {
+        return a + b + c;
+    }
 }

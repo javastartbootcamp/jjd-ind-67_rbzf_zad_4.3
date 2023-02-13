@@ -8,4 +8,8 @@ class Rectangle {
         this.a = a;
         this.b = b;
     }
+
+    double calculateRectPerimeter() {
+        return 2 * (a + b);
+    }
 }

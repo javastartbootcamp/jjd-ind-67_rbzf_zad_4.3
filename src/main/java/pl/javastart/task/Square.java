@@ -6,4 +6,8 @@ class Square {
     Square(double a) {
         this.a = a;
     }
+
+    double calculateSquareArea() {
+        return a * a;
+    }
 }
